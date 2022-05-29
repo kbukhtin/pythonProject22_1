@@ -21,7 +21,7 @@ hour = (h * 60 + m + x) // 60
 minutes = (h * 60 + m + x) % 60
 print(hour)
 print(minutes)
-'''
+'''dfsdfsdfdfsdfsdfsdfsdf
 #Task №4
 
 544+4545
