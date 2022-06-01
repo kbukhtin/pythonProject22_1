@@ -61,3 +61,25 @@ else:
     print('False')
 '''
 #Task №8
+'''
+operand1 = float(input())
+operand2 = float(input())
+_operator = input()
+if _operator == "-":
+    print(operand1 - operand2)
+elif _operator == "+":
+    print(operand1 + operand2)
+elif _operator == "*":
+    print(operand1 * operand2)
+elif _operator == "pow":
+    print(operand1 ** operand2)
+elif _operator == "/" and operand2 != 0:
+    print(operand1 / operand2)
+elif _operator == "mod" and operand2 != 0:
+    print(operand1 % operand2)
+elif _operator == "div" and operand2 != 0:
+    print(operand1 // operand2)
+elif _operator == "/" or _operator == "mod" or _operator == "div" and operand2 == 0:
+    print("Деление на 0!")
+'''
+#Task №9
